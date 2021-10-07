@@ -25,7 +25,7 @@ body {
 /* IMAGES */
 
 .background {
-  background-image: url("/images/jim-makos-oUKFUnEtCd8-unsplash.jpg");
+  background-image: url("images/jim-makos-oUKFUnEtCd8-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
