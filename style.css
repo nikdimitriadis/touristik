@@ -97,9 +97,10 @@ body {
   margin-bottom: 1.6rem;
   border-bottom: 1px solid var(--head-color);
 }
-.choices li:hover {
-  /* transform: scale(1.1); */
-}
+
+/* .choices li:hover {
+  transform: scale(1.1);
+} */
 
 .choices a {
   text-decoration: none;
