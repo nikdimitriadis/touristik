@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box1 {
+  background-color: dodgerblue;
+}
+
+.box2 {
+  background-color: gold;
+}
+p {
+  margin: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}

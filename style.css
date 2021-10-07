@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+
+.footer-style {
+  background-color: #333;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100vw;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form-style .input-container {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+textarea {
+  outline: 0;
+}
+
+.form-style .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-style .buttons-container button {
+  font-size: 1.5rem;
+}
+
+.footer-style .contact-daten {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+
+.footer-style .contact-daten i {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
+.contact-daten.follow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-daten.follow i {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 784px) {
+  .form-style {
+    padding: 0 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .form-style .input-container {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+
+  .form-style .buttons-container {
+    justify-content: space-around;
+  }
+
+  .footer-style .contact-daten {
+    padding: 0 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    font-size: 1.4rem;
+  }
+  .footer-style .contact-daten i {
+    margin-right: 20px;
+  }
+  .contact-daten.follow {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+}
