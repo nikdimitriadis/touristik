@@ -175,7 +175,7 @@ body {
   .background .center {
     position: absolute;
     top: 10%;
-    z-index: 4;
+    z-index: 400;
     top: 20%;
   }
 }
@@ -184,7 +184,7 @@ body {
   .background .center {
     position: absolute;
     top: 10%;
-    z-index: 4;
+    z-index: 400;
     top: 30%;
     left: 10%;
   }
