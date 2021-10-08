@@ -62,10 +62,12 @@ body {
   font-size: 2.5rem;
   color: var(--head-color);
   transition: all 0.4s;
+  margin-right: 10px;
 }
 
 .navigation-chev.rotated {
   transform: rotate(-90deg);
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 780px) {
@@ -81,7 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 5px;
-  transition: all 0.4s;
+  transition: all 1s ease-in-out;
 }
 
 .choices.choice-size.hiden {
@@ -156,7 +158,7 @@ body {
 
 /* Positioning  style*/
 .background .center {
-  position: absolute;
+  position: relative;
   top: 10%;
   z-index: 4;
   /* margin-right: 40px; */
@@ -171,12 +173,18 @@ body {
 
 @media screen and (min-width: 880px) {
   .background .center {
+    position: absolute;
+    top: 10%;
+    z-index: 4;
     top: 20%;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .background .center {
+    position: absolute;
+    top: 10%;
+    z-index: 4;
     top: 30%;
     left: 10%;
   }
