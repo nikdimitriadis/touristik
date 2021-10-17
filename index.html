@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/1235ac82d2.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
   </head>
   <body>
@@ -27,16 +28,15 @@
           </ul>
         </nav>
       </header>
-      <h1 class="center center-decoration">
+      <h1 data-aos="fade-right" class="center center-decoration">
         Feel The Ultimate Travel Experience
       </h1>
-      <!-- coment -->
     </div>
 
     <section class="flex-exp">
       <h3 id="link-exp" class="exp-header">Experience</h3>
       <div class="exp-grid grid-1x2 grid-1x2-decor">
-        <div class="exp-content">
+        <div data-aos="fade-right" class="exp-content">
           <h3>Our Busses</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -44,20 +44,24 @@
             sed.
           </p>
         </div>
-        <div class="image-text"><img src="images/bus.jpg" alt="" /></div>
+        <div data-aos="fade-left" class="image-text">
+          <img src="images/bus.jpg" alt="" />
+        </div>
       </div>
       <div class="exp-grid grid-1x2 grid-1x2-decor">
-        <div class="exp-content reverse">
+        <div data-aos="fade-left" class="exp-content reverse">
           <h3>Plan</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste
             ex porro voluptatum! Accusamus a soluta iure labore temporibus eum.
           </p>
         </div>
-        <div class="image-text"><img src="images/roadplan.jpg" alt="" /></div>
+        <div data-aos="fade-right" class="image-text">
+          <img src="images/roadplan.jpg" alt="" />
+        </div>
       </div>
       <div class="exp-grid grid-1x2 grid-1x2-decor">
-        <div class="exp-content">
+        <div data-aos="fade-right" class="exp-content">
           <h3>Road View</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
@@ -65,7 +69,7 @@
             consectetur autem atque.
           </p>
         </div>
-        <div class="image-text">
+        <div data-aos="fade-left" class="image-text">
           <img src="images/secondview.jpg" alt="" />
         </div>
       </div>
@@ -136,39 +140,39 @@
     <section id="drivers" class="card-sector">
       <h3 class="exp-header">Our Drivers</h3>
       <div class="three-cards">
-        <div class="card-container">
+        <div data-aos="zoom-in" class="card-container">
           <img
             src="https://avatarfiles.alphacoders.com/162/162122.jpg"
             alt=""
           />
           <div class="inside-card">
-            <h3 class="card-name"><Datag>Butters Sexymann</Datag></h3>
+            <h3 class="card-name">Butters Sexymann</h3>
             <p class="paragraf">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
               a.
             </p>
           </div>
         </div>
-        <div class="card-container">
+        <div data-aos="zoom-in" class="card-container">
           <img
             src="https://avatarfiles.alphacoders.com/161/161485.png"
             alt=""
           />
           <div class="inside-card">
-            <h3 class="card-name"><Datag>Mortis Anagnostopoulos</Datag></h3>
+            <h3 class="card-name">Mortis Anagnostopoulos</h3>
             <p class="paragraf">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
               a.
             </p>
           </div>
         </div>
-        <div class="card-container">
+        <div data-aos="zoom-in" class="card-container">
           <img
             src="https://avatarfiles.alphacoders.com/162/162121.jpg"
             alt=""
           />
           <div class="inside-card">
-            <h3 class="card-name"><Datag>Eric Fu Cartman</Datag></h3>
+            <h3 class="card-name">Eric Fu Cartman</h3>
             <p class="paragraf">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
               a.
@@ -236,5 +240,9 @@
       </div>
     </footer>
     <script src="new.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
