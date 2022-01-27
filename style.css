@@ -13,6 +13,7 @@ html {
 
 body {
   font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
   margin: 0;
 }
 
@@ -22,7 +23,7 @@ body {
   --max-width: 1200px;
 }
 
-/* IMAGES */
+/* Background */
 
 .background {
   background-image: url("images/jim-makos-oUKFUnEtCd8-unsplash.jpg");
@@ -100,10 +101,6 @@ body {
   border-bottom: 1px solid var(--head-color);
 }
 
-/* .choices li:hover {
-  transform: scale(1.1);
-} */
-
 .choices a {
   text-decoration: none;
   font-size: bold;
@@ -161,7 +158,6 @@ body {
   position: relative;
   top: 10%;
   z-index: 4;
-  /* margin-right: 40px; */
 }
 
 .background .center-decoration {
@@ -193,10 +189,7 @@ body {
   }
 }
 
-/* ======================================= */
-/* Experience Experience Experience Experience Experience Experience Experience Experience */
-/* Experience Experience Experience Experience Experience Experience Experience Experience */
-/* ======================================= */
+/* Experience Experience Experience Experienc*/
 
 .flex-exp {
   display: grid;
@@ -305,9 +298,7 @@ body {
   }
 }
 
-/* DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS 
- DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS 
-  DESTINATIONS  DESTINATIONS  DESTINATIONS  DESTINATIONS  */
+/* DESTINATIONS  */
 
 .destiny-section {
   width: 100%;
@@ -487,9 +478,8 @@ body {
   }
 }
 
-/* DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS  */
-/* DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS  */
-/* DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS DRIVERS  */
+/* DRIVERS */
+
 .card-sector {
   width: 100%;
   height: 100%;
@@ -532,8 +522,8 @@ body {
   margin: 0;
 }
 
-/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
-/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+/* FOOTER*/
+
 .footer-style {
   background-color: #333;
   color: aliceblue;
@@ -554,6 +544,10 @@ body {
   font-size: 1.5rem;
 }
 
+.form-style .input-container input {
+  padding: 0.6rem;
+}
+
 textarea {
   outline: 0;
 }
@@ -566,6 +560,24 @@ textarea {
 
 .form-style .buttons-container button {
   font-size: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.form-style .buttons-container button:first-child {
+  background-color: rgb(65, 199, 65);
+}
+.form-style .buttons-container button:first-child:active {
+  background-color: rgba(65, 199, 65, 0.8);
+}
+.form-style .buttons-container button:last-child {
+  background-color: rgb(247, 47, 47);
+}
+.form-style .buttons-container button:last-child:active {
+  background-color: rgba(247, 47, 47, 0.8);
 }
 
 .footer-style .contact-daten {
